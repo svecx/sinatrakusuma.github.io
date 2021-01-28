@@ -1,0 +1,82 @@
+body {
+    background-image: url("../img/birthday.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+#timedate {
+    font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-align: left;
+    width: 500px;
+    margin: 40px auto;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-left: 3px solid #FDB3CA;
+    padding: 10px;
+}
+
+#timedate {
+    display: inline-block;
+    left: -200px;
+}
+
+#mi {
+    visibility: hidden;
+}
+
+.format {
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius:10px ;
+    padding:1px;
+    font-weight: bold;
+    text-align: left;
+    width: 500px;
+    font-family: Redressed;
+}
+
+.first {
+    font-size: 25px;
+    text-align: left;
+}
+
+#second {
+    position: relative;
+    left: 22em;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1px;
+}
+
+audio{
+    visibility: hidden;
+}
+
+
+.i {
+    width: 250px;
+    display: inline-block;
+    border: 5px solid #d17693;
+    background-color: #d17693;
+    border-radius: 40px;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    color: #313135;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    transition: all ease 0.5s;
+    text-decoration: none;
+}
+
+.i:hover {
+    border: 5px solid #ac536f;
+    background-color: #ac536f;
+    font-weight: bold;
+    font-size:23px;
+}
